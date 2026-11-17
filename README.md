@@ -40,3 +40,6 @@ After installation, the **Spritesheet Generator** can be opened by navigating to
 
 * **Ignore empty frames:** If enabled (default), empty frames in the animation timeline will not be included in the spritesheet.
 * **Layers to export:** Controls which layers will be considered for inclusion in the spritesheet.
+
+# Fork
+This fork adds shortcut key item, configure in settings `Spritesheet Generator`, default is empty.
