@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActionCollection version="2" name="Spritesheet Generator">
+    <Actions category="Spritesheet Generator">
+        <text>Spritesheet Generator</text>
+
+        <Action name="spritesheet_generator">
+            <icon></icon>
+            <text>Spritesheet Generator</text>
+            <whatsThis>Opens the Spritesheet Generator dialog to export animation frames as a spritesheet.</whatsThis>
+            <toolTip>Export frames in the animation timeline as a spritesheet.</toolTip>
+            <iconText>Spritesheet Generator</iconText>
+            <activationFlags>0</activationFlags>
+            <activationConditions>0</activationConditions>
+            <shortcut></shortcut>
+            <isCheckable>false</isCheckable>
+            <statusTip>Export animation frames as a spritesheet.</statusTip>
+        </Action>
+    </Actions>
+</ActionCollection>
