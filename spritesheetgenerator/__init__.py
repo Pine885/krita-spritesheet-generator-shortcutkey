@@ -1,4 +1,4 @@
 import krita
-from .spritesheetgeneratoractiongen import SpritesheetGeneratorExtension
+from .spritesheetgeneratorextension import SpritesheetGeneratorExtension
 
 Scripter.addExtension(SpritesheetGeneratorExtension(krita.Krita.instance()))
