@@ -3,6 +3,7 @@ import math
 from pathlib import Path
 from collections import namedtuple
 from PyQt5.QtCore import QUuid
+from .onionskinfix import OnionSkinsDisabled
 
 class SpritesheetGenerator():
 
@@ -51,7 +52,8 @@ class SpritesheetGenerator():
             print("Adding padding to spritesheet frames...")
             self._applyPaddingToSprites()
         
-        self._createSpritesheetDocumentFromFrames()
+        with OnionSkinsDisabled():
+            self._createSpritesheetDocumentFromFrames()
         self._positionFramesInSpritesheetDocument()
         self._forceCloseDocument(self.temporaryDocument)
         self._exportToFile()
