@@ -44,3 +44,4 @@ After installation, the **Spritesheet Generator** can be opened by navigating to
 # Fork
 - adds shortcut key item, configure in settings `Spritesheet Generator`, default is empty.
 - add fix to onion bug: https://github.com/ShannonHG/krita-spritesheet-generator/issues/10
+   - Update, fix is now on main.
